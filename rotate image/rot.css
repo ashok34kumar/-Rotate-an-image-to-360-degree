@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0f0f0f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rotate-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+}
+.rotate-img{
+    width: 100px;
+    height: 100px;
+}
+.center-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px; /* Adjust as necessary */
+    height: 25px; /* Adjust as necessary */
+}
+/* for rotation of image in any corner
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#movableImage {
+    position: absolute;
+    width: 100px; /* Adjust as necessary 
+    height: 100px;  Adjust as necessary 
+    transition: all 0.5s ease;
+
+
+Add classes for each corner position 
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+    */ 
